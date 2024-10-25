@@ -1,6 +1,6 @@
 # Quantifying-MC
 This is a MATLAB code that quantifies morphological computation. 
-the main code is 'MCtest_real_b2.m'  and it has the following functions:
+the main code is 'MCtest_real_b2_3.m'  and it has the following functions:
    - 'discretiseMatrix' to discretise the data
    - 'combineAndRelabelBinnedMatrix; to create the univariate variable
    - 'MC_W1_dynamic' to calculate the dynamic MC. This MC captures the value in the entire gait
