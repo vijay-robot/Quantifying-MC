@@ -72,9 +72,12 @@ mean(myStruct.mcd)
 %plotting
 
 plot(myStruct.discrete_position)
-title ('Position')
+title ('Position and Load')
 hold on;
 plot(myStruct.discrete_load);
 hold off;
 plot(myStruct.mcd)
+hold on;
+plot (smooth(myStruct.mcd))
+legend('actual MC', 'smooth MC')
 title ('MC');
